@@ -53,6 +53,13 @@
     });
 </script>
 
+<svelte:head>
+    <meta
+        name="viewport"
+        content="width=1024px, maximum-scale=4.0, user-scalable=yes"
+    />
+</svelte:head>
+
 <div class="flex grow flex-row divide-x divide-base-300 overflow-hidden">
     <!-- First side bar -->
     <WorkspacesSideNav bind:selectedWorkspaceUUID bind:selectedWorkspace />
